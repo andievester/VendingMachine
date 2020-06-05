@@ -8,6 +8,9 @@ import java.util.Scanner;
 import java.util.TreeMap;
 
 public class VendingMachine {
+	
+	
+	double balance = 0;
 	Map<String, Product> vendingMachineStock = new TreeMap<>();
 
 	public VendingMachine() {
@@ -26,17 +29,13 @@ public class VendingMachine {
 
 					if (type.equals("Chip")) {
 						currentItem = new Chip(name, price);
-					}
-					else if (type.equals("Candy")) {
+					} else if (type.equals("Candy")) {
 						currentItem = new Candy(name, price);
-					}
-					else if (type.equals("Drink")) {
+					} else if (type.equals("Drink")) {
 						currentItem = new Drink(name, price);
-					}
-					else if (type.equals("Gum")) {
+					} else if (type.equals("Gum")) {
 						currentItem = new Gum(name, price);
 					}
-							
 
 					vendingMachineStock.put(location, currentItem);
 
@@ -59,7 +58,7 @@ public class VendingMachine {
 			if (p != null) {
 
 				if (p.getQuantity() == 0) {
-					result += (location + " OUT OF STOCK! \n");
+					result += (location + " SOLD OUT! \n");
 				} else {
 
 					result += (location + " " + p.getProductName() + " " + p.getProductPrice() + "\n");
@@ -67,22 +66,35 @@ public class VendingMachine {
 			}
 		}
 		return result;
-
 	}
+	
+	
+	
+	public void feedMoney(String string) {
+	String transaction = "FEED MONEY: ";
+	double newMoney = 0;
+    feedMoney(Double.toString(balance) + Double.toString(newMoney));
+	
+	
+			
+			
+		}
+	
+	
 
-	public String purchase(String userSelection) {
+	public String purchase(String userChoice) {
 		String result = "";
-		if(!vendingMachineStock.containsKey(userSelection)) {
+		if (!vendingMachineStock.containsKey(userChoice)) {
 			result += ("Invalid Entry! Please make another selection!");
 		}
 
-		if (vendingMachineStock.containsKey(userSelection)) {
-			if (vendingMachineStock.get(userSelection) == null) {
-				System.out.println("Sorry out of stock!");
+		if (vendingMachineStock.containsKey(userChoice)) {
+			Product selectedProduct = vendingMachineStock.get(userChoice);
+			result = "You selected " + selectedProduct.getProductName() + " $"+selectedProduct.getProductPrice();
+
+		}
+
 		return result;
 	}
- 
 }
-		return result;
-	}
-}
+
