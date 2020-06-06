@@ -1,43 +1,44 @@
 package com.techelevator;
 
-public abstract class Product {
+import java.math.BigDecimal;
 
+public abstract class Product {
 	private String productName;
-	private double productPrice;
+	private BigDecimal productPrice;
 	private int quantity;
 
-	
 	private static int STARTING_QUANTITY = 5;
-	public Product(String productName, Double productPrice) {
-		this.productName = productName;
-		this.productPrice = productPrice;
-		this.quantity = STARTING_QUANTITY;
+
+	public Product(String productName, BigDecimal productPrice) {
+		this.setProductName(productName);
+		this.setProductPrice(productPrice);
+		this.setQuantity(STARTING_QUANTITY);
 	}
 
 	public abstract String getSound();
 
+	public BigDecimal getProductPrice() {
+		return productPrice;
+	}
+
+	public void setProductPrice(BigDecimal productPrice) {
+		this.productPrice = productPrice;
+	}
+
 	public String getProductName() {
 		return productName;
-	}
-	public int getQuantity() {
-		return quantity;
-	}
-	
-
-	public void setQuantity(int quantity) {
-		this.quantity = quantity;
-	}
-
-	public double getProductPrice() {
-		return productPrice;
 	}
 
 	public void setProductName(String productName) {
 		this.productName = productName;
 	}
 
-	public void setProductPrice(double productPrice) {
-		this.productPrice = productPrice;
+	public int getQuantity() {
+		return quantity;
+	}
+
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
 	}
 
 }
