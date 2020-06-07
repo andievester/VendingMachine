@@ -1,9 +1,8 @@
 package com.techelevator;
 
-import java.awt.PageAttributes.OriginType;
+
 import java.math.BigDecimal;
 import java.util.Scanner;
-
 import com.techelevator.view.Menu;
 
 public class VendingMachineCLI {

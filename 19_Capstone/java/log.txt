@@ -15,3 +15,20 @@
 2020-06-07 15:00:35 FEED MONEY:              $5.00     $5.00     
 2020-06-07 15:00:38 Stackers                 $1.45     $3.55     
 2020-06-07 15:00:41 GIVE CHANGE:             $Your change is 14 quarters and 0 dimes and 1 nickels. $0.00     
+2020-06-07 15:33:58.271 FEED MONEY:              $5.00     $5.00     
+2020-06-07 15:34:02.130 GIVE CHANGE:             $Your change is 20 quarters and 0 dimes and 0 nickels. $0.00     
+2020-06-07 15:36:57 FEED MONEY:              $5.00$5.00
+2020-06-07 15:37:00 Stackers                 $1.45$3.55
+2020-06-07 15:37:01 GIVE CHANGE:             $Your change is 14 quarters and 0 dimes and 1 nickels. $0.00
+2020-06-07 15:37:29 FEED MONEY:              $5.00$5.00
+2020-06-07 15:37:33 Stackers                 $1.45$3.55
+2020-06-07 15:37:34 GIVE CHANGE:             $Your change is 14 quarters and 0 dimes and 1 nickels. $0.00
+2020-06-07 15:3 FEED MONEY:              $5.00                         $5.00                         
+2020-06-07 15:38:13 Stackers                 $1.45                         $3.55                         
+2020-06-07 15:38:14 GIVE CHANGE:             $Your change is 14 quarters and 0 dimes and 1 nickels. $0.00                         
+2020-06-07 15:39:20 FEED MONEY:              $5.00     $5.00     
+2020-06-07 15:39:22 Stackers                 $1.45     $3.55     
+2020-06-07 15:39:23 GIVE CHANGE:             $Your change is 14 quarters and 0 dimes and 1 nickels. $0.00     
+2020-06-07 15:49:33 FEED MONEY:              $5.00     $5.00     
+2020-06-07 15:50:25 FEED MONEY:              $5.00     $5.00     
+2020-06-07 16:03:28 FEED MONEY:              $5.00     $5.00     

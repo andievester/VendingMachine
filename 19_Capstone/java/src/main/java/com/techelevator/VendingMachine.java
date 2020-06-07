@@ -3,12 +3,12 @@ package com.techelevator;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.math.BigDecimal;
-import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
 
 public class VendingMachine {
+
 	Map<String, Product> stock = new TreeMap<>();
 	private BigDecimal balance = new BigDecimal(0.00).setScale(2);
 	LogWriter writer = new LogWriter();
@@ -50,8 +50,6 @@ public class VendingMachine {
 		}
 
 	}
-
-	
 
 	public String display() {
 		String result = "";
