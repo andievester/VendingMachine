@@ -1,0 +1,17 @@
+2020-06-07 14:57:01 FEED MONEY:              $5.00     $5.00     
+2020-06-07 14:57:06 Grain Waves              $2.75     $2.25     
+2020-06-07 14:57:28 GIVE CHANGE:             $Your change is 9 quarters and 0 dimes and 0 nickels. $0.00     
+2020-06-07 14:58:32 FEED MONEY:              $10.00    $12.25    
+2020-06-07 14:58:37 U-Chews                  $0.85     $11.40    
+2020-06-07 14:58:41 U-Chews                  $0.85     $10.55    
+2020-06-07 14:58:43 U-Chews                  $0.85     $9.70     
+2020-06-07 14:58:46 U-Chews                  $0.85     $8.85     
+2020-06-07 14:58:48 U-Chews                  $0.85     $8.00     
+2020-06-07 14:59:01 GIVE CHANGE:             $Your change is 32 quarters and 0 dimes and 0 nickels. $0.00     
+2020-06-07 14:59:31 GIVE CHANGE:             $Your change is 0 quarters and 0 dimes and 0 nickels. $0.00     
+2020-06-07 14:59:53 FEED MONEY:              $5.00     $5.00     
+2020-06-07 14:59:56 Stackers                 $1.45     $3.55     
+2020-06-07 14:5 GIVE CHANGE:             $Your change is 14 quarters and 0 dimes and 1 nickels. $0.00     
+2020-06-07 15:00:35 FEED MONEY:              $5.00     $5.00     
+2020-06-07 15:00:38 Stackers                 $1.45     $3.55     
+2020-06-07 15:00:41 GIVE CHANGE:             $Your change is 14 quarters and 0 dimes and 1 nickels. $0.00     

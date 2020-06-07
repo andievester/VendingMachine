@@ -12,4 +12,3 @@ public class Candy extends Product {
 		return "Munch Munch, Yum!";
 	}
 }
-

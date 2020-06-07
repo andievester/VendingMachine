@@ -17,6 +17,7 @@ public class VendingMachineCLI {
 	private static final String[] PURCHASE_MENU_OPTIONS = { FEED_THE_MACHINE_MONEY, SELECT_YOUR_ITEM,
 			FINISH_TRANSACTION };
 	private static VendingMachine vm = null;
+	LogWriter writer = new LogWriter();
 	private Menu menu;
 
 	public VendingMachineCLI(Menu menu) {
@@ -34,10 +35,6 @@ public class VendingMachineCLI {
 			}
 		}
 
-// if (choice.equals(MAIN_MENU_OPTION_DISPLAY_ITEMS)) {
-// System.out.println(vm.display());
-// System.out.println(vm.purchase(vendingChoice));
-
 	}
 
 	public void purchaseMenu() {
@@ -48,28 +45,29 @@ public class VendingMachineCLI {
 
 			if (choice.equals(FINISH_TRANSACTION)) {
 				finished = true;
+				writer.writer("GIVE CHANGE:", vm.giveChange(vm.getBalance()), new BigDecimal(0.00).setScale(2));
 				System.out.println(vm.giveChange(vm.getBalance()));
-				
-			} else if (choice.equals(SELECT_YOUR_ITEM))
-				if (vm.getBalance().equals(0)) {
+				break;
+			} else if (choice.equals(SELECT_YOUR_ITEM)) {
+				if (vm.getBalance().intValue() == 0)
 					System.out.println("Insert more money!!");
 
-				} else if (!(vm.getBalance().equals(0))) {
-					System.out.println("Input your selection!");
-					Scanner selection = new Scanner(System.in);
-					String vendingChoice = selection.nextLine();
-					System.out.println(vm.purchase(vendingChoice));
+			}
+			if (!(vm.getBalance().intValue() == 0)) {
+				System.out.println("Input your selection!");
+				Scanner selection = new Scanner(System.in);
+				String vendingChoice = selection.nextLine();
+				System.out.println(vm.purchase(vendingChoice));
 
-				}
+			}
 			if (choice.equals(FEED_THE_MACHINE_MONEY)) {
 				System.out.println("Please enter money :");
 				Scanner amountEntered = new Scanner(System.in);
 				String insertedMoney = amountEntered.nextLine();
 				int moneyInt = Integer.parseInt(insertedMoney);
+
 				vm.feedMoney(moneyInt);
 				System.out.println("Current balance is: " + vm.getBalance());
-				
-
 			}
 		}
 	}
