@@ -46,7 +46,7 @@ public class VendingMachineCLI {
 				finished = true;
 				writer.writer("GIVE CHANGE:", vm.giveChange(vm.getBalance()), new BigDecimal(0.00).setScale(2));
 				System.out.println(vm.giveChange(vm.getBalance()));
-				break;
+				System.exit(0);
 			} else if (choice.equals(SELECT_YOUR_ITEM)) {
 				if (vm.getBalance().intValue() == 0)
 					System.out.println("Insert more money!!");
