@@ -38,7 +38,7 @@ public class VendingMachineCLI {
 
 	public void purchaseMenu() {
 		boolean finished = false;
-		System.out.println("Current balance is: " + "0.00");
+		System.out.println("Current balance is: " + "$" + vm.getBalance());
 		while (!finished) {
 			String choice = (String) menu.getChoiceFromOptions(PURCHASE_MENU_OPTIONS);
 
