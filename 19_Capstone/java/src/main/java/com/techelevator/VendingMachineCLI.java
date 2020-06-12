@@ -1,6 +1,5 @@
 package com.techelevator;
 
-
 import java.math.BigDecimal;
 import java.util.Scanner;
 import com.techelevator.view.Menu;
@@ -15,6 +14,7 @@ public class VendingMachineCLI {
 	private static final String FINISH_TRANSACTION = "Finish transaction";
 	private static final String[] PURCHASE_MENU_OPTIONS = { FEED_THE_MACHINE_MONEY, SELECT_YOUR_ITEM,
 			FINISH_TRANSACTION };
+	// add exit to program
 	private static VendingMachine vm = null;
 	LogWriter writer = new LogWriter();
 	private Menu menu;
@@ -44,29 +44,37 @@ public class VendingMachineCLI {
 
 			if (choice.equals(FINISH_TRANSACTION)) {
 				finished = true;
-				writer.writer("GIVE CHANGE:", vm.giveChange(vm.getBalance()), new BigDecimal(0.00).setScale(2));
-				System.out.println(vm.giveChange(vm.getBalance()));
-				System.exit(0);
+				String change = vm.giveChange(vm.getBalance());
+				writer.writer("GIVE CHANGE:", change, new BigDecimal(0.00).setScale(2));
+				System.out.println(change);
 			} else if (choice.equals(SELECT_YOUR_ITEM)) {
+
 				if (vm.getBalance().intValue() == 0)
 					System.out.println("Insert more money!!");
+				else if (!(vm.getBalance().intValue() == 0)) {
+					System.out.println("Input your selection!");
+					Scanner selection = new Scanner(System.in);
+					String vendingChoice = selection.nextLine();
+					System.out.println(vm.purchase(vendingChoice));
+
+				}
 
 			}
-			if (!(vm.getBalance().intValue() == 0)) {
-				System.out.println("Input your selection!");
-				Scanner selection = new Scanner(System.in);
-				String vendingChoice = selection.nextLine();
-				System.out.println(vm.purchase(vendingChoice));
 
-			}
 			if (choice.equals(FEED_THE_MACHINE_MONEY)) {
 				System.out.println("Please enter money :");
 				Scanner amountEntered = new Scanner(System.in);
 				String insertedMoney = amountEntered.nextLine();
-				int moneyInt = Integer.parseInt(insertedMoney);
+				try {
+					int moneyInt = Integer.parseInt(insertedMoney);
 
-				vm.feedMoney(moneyInt);
-				System.out.println("Current balance is: " + vm.getBalance());
+					vm.feedMoney(moneyInt);
+					System.out.println("Current balance is: " + vm.getBalance());
+				} catch (Exception e) {
+					System.out.println("Invalid amount! Enter Whole Amount!");
+					
+				}
+
 			}
 		}
 	}

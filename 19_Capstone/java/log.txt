@@ -45,3 +45,97 @@
 2020-06-09 09:07:24 FEED MONEY:              $5.00     $5.00     
 2020-06-09 09:07:27 Stackers                 $1.45     $3.55     
 2020-06-09 09:07:28 GIVE CHANGE:             $Your change is 14 quarters and 0 dimes and 1 nickels. $0.00     
+2020-06-09 14:01:05 GIVE CHANGE:             $Your change is 0 quarters and 0 dimes and 0 nickels. $0.00     
+2020-06-09 14:03:00 GIVE CHANGE:             $Your change is 0 quarters and 0 dimes and 0 nickels. $0.00     
+2020-06-09 14:04:00 FEED MONEY:              $20.00    $20.00    
+2020-06-09 14:05:44 Potato Crisps            $3.05     $16.95    
+2020-06-09 14:06:40 Potato Crisps            $3.05     $13.90    
+2020-06-09 14:06:51 Potato Crisps            $3.05     $10.85    
+2020-06-09 14:06:54 Potato Crisps            $3.05     $7.80     
+2020-06-09 14:06:58 Potato Crisps            $3.05     $4.75     
+2020-06-09 14:07:31 Chiclets                 $0.75     $4.00     
+2020-06-09 14:07:41 U-Chews                  $0.85     $3.15     
+2020-06-09 14:07:45 GIVE CHANGE:             $Your change is 12 quarters and 1 dimes and 1 nickels. $0.00     
+2020-06-09 14:10:25 FEED MONEY:              $5.00     $5.00     
+2020-06-09 14:10:29 Potato Crisps            $3.05     $1.95     
+2020-06-09 14:10:32 GIVE CHANGE:             $Your change is 7 quarters and 2 dimes and 0 nickels. $0.00     
+2020-06-09 14:10:52 FEED MONEY:              $5.00     $5        
+2020-06-09 14:10:57 Potato Crisps            $3.05     $1.95     
+2020-06-09 14:11:09 Stackers                 $1.45     $0.50     
+2020-06-09 14:11:19 FEED MONEY:              $5.00     $5.50     
+2020-06-09 14:11:29 Stackers                 $1.45     $4.05     
+2020-06-09 14:11:34 FEED MONEY:              $20.00    $24.05    
+2020-06-09 14:11:39 Stackers                 $1.45     $22.60    
+2020-06-09 14:11:43 Stackers                 $1.45     $21.15    
+2020-06-09 14:11:47 Stackers                 $1.45     $19.70    
+2020-06-09 14:11:54 GIVE CHANGE:             $Your change is 78 quarters and 2 dimes and 0 nickels. $0.00     
+2020-06-12 14:13:00 FEED MONEY:              $4.00     $4.00     
+2020-06-12 14:13:04 Stackers                 $1.45     $2.55     
+2020-06-12 14:13:06 GIVE CHANGE:             $Your change is 10 quarters and 0 dimes and 0 nickels. $0.00     
+2020-06-12 14:19:55 FEED MONEY:              $5.00     $5.00     
+2020-06-12 14:19:58 Grain Waves              $2.75     $2.25     
+2020-06-12 14:20:02 GIVE CHANGE:             $Your change is 9 quarters and 0 dimes and 0 nickels. $0.00     
+2020-06-12 14:33:40 FEED MONEY:              $4.00     $4.00     
+2020-06-12 14:33:45 Chiclets                 $0.75     $3.25     
+2020-06-12 14:33:52 Potato Crisps            $3.05     $0.20     
+2020-06-12 14:33:55 GIVE CHANGE:             $Your change is 80.0 quarters and 0.0 dimes and 0.0 nickels. $0.00     
+2020-06-12 14:34:42 FEED MONEY:              $4.00     $4.00     
+2020-06-12 14:34:46 Chiclets                 $0.75     $3.25     
+2020-06-12 14:34:49 Potato Crisps            $3.05     $0.20     
+2020-06-12 14:34:52 GIVE CHANGE:             $Your change is 0.8 quarters and 0.0 dimes and 0.0 nickels. $0.00     
+2020-06-12 14:40:08 FEED MONEY:              $4.00     $4.00     
+2020-06-12 14:40:10 GIVE CHANGE:             $Your change is 0 quarters and 0 dimes and 0 nickels. $0.00     
+2020-06-12 14:40:21 FEED MONEY:              $3.00     $3        
+2020-06-12 14:40:29 Stackers                 $1.45     $1.55     
+2020-06-12 14:40:31 GIVE CHANGE:             $Your change is 5 quarters and 0 dimes and 0 nickels. $0.00     
+2020-06-12 14:50:55 FEED MONEY:              $4.00     $4.00     
+2020-06-12 14:50:58 Stackers                 $1.45     $2.55     
+2020-06-12 14:51:00 GIVE CHANGE:             $Your change is 4 quarters and 4 dimes and 4 nickels. $0.00     
+2020-06-12 14:54:06 FEED MONEY:              $5.00     $5.00     
+2020-06-12 14:54:12 Potato Crisps            $3.05     $1.95     
+2020-06-12 14:54:14 GIVE CHANGE:             $Your change is 20 quarters and 0 dimes and 0 nickels. $0.00     
+2020-06-12 14:54:29 FEED MONEY:              $5.00     $5.00     
+2020-06-12 14:54:31 Stackers                 $1.45     $3.55     
+2020-06-12 14:54:33 GIVE CHANGE:             $Your change is 5 quarters and 5 dimes and 0 nickels. $0.00     
+2020-06-12 14:56:37 FEED MONEY:              $4.00     $4.00     
+2020-06-12 14:56:39 Potato Crisps            $3.05     $0.95     
+2020-06-12 14:56:41 GIVE CHANGE:             $Your change is 0 quarters and 0 dimes and 0 nickels. $0.00     
+2020-06-12 14:57:59 FEED MONEY:              $4.00     $4.00     
+2020-06-12 14:58:01 Stackers                 $1.45     $2.55     
+2020-06-12 14:58:02 GIVE CHANGE:             $Your change is 4 quarters and 4 dimes and 4 nickels. $0.00     
+2020-06-12 15:00:52 FEED MONEY:              $4.00     $4.00     
+2020-06-12 15:00:54 Stackers                 $1.45     $2.55     
+2020-06-12 15:00:56 GIVE CHANGE:             $Your change is 4 quarters and 4 dimes and 4 nickels. $0.00     
+2020-06-12 15:10:30 FEED MONEY:              $4.00     $4.00     
+2020-06-12 15:10:33 Stackers                 $1.45     $2.55     
+2020-06-12 15:10:34 GIVE CHANGE:             $Your change is 4 quarters and 4 dimes and 4 nickels. $0.00     
+2020-06-12 15:14:59 FEED MONEY:              $4.00     $4.00     
+2020-06-12 15:15:02 Stackers                 $1.45     $2.55     
+2020-06-12 15:15:04 GIVE CHANGE:             $Your change is -96.0 quarters and -36.0 dimes and -16.0 nickels. $0.00     
+2020-06-12 15:25:49 FEED MONEY:              $4.00     $4.00     
+2020-06-12 15:25:51 Stackers                 $1.45     $2.55     
+2020-06-12 15:25:56 GIVE CHANGE:             $Your change is 4.999999999999972 quarters and 4.999999999999972 dimes and 4.999999999999972 nickels. $0.00     
+2020-06-12 15:32:25 FEED MONEY:              $4.00     $4.00     
+2020-06-12 15:32:27 Stackers                 $1.45     $2.55     
+2020-06-12 15:32:29 GIVE CHANGE:             $Your change is 4 quarters and -6 dimes and 4 nickels. $0.00     
+2020-06-12 15:32:58 FEED MONEY:              $4.00     $4.00     
+2020-06-12 15:32:59 Stackers                 $1.45     $2.55     
+2020-06-12 15:33:00 GIVE CHANGE:             $Your change is 10 quarters and -24 dimes and 43 nickels. $0.00     
+2020-06-12 15:34:12 FEED MONEY:              $4.00     $4.00     
+2020-06-12 15:34:14 Stackers                 $1.45     $2.55     
+2020-06-12 15:34:16 GIVE CHANGE:             $Your change is 10 quarters and 0 dimes and 0 nickels. $0.00     
+2020-06-12 15:34:57 FEED MONEY:              $4.00     $4.00     
+2020-06-12 15:34:58 Stackers                 $1.45     $2.55     
+2020-06-12 15:35:00 GIVE CHANGE:             $Your change is 10 quarters and 0 dimes and 0 nickels. $0.00     
+2020-06-12 15:45:46 FEED MONEY:              $4.00     $4.00     
+2020-06-12 15:45:50 Stackers                 $1.45     $2.55     
+2020-06-12 15:45:51 GIVE CHANGE:             $Your change is 10 quarters and 0 dimes and 0 nickels. $0.00     
+2020-06-12 15:49:42 FEED MONEY:              $4.00     $4.00     
+2020-06-12 15:49:44 Stackers                 $1.45     $2.55     
+2020-06-12 15:49:46 GIVE CHANGE:             $Your change is 10 quarters and 0 dimes and 0 nickels. $0.00     
+2020-06-12 15:56:00 FEED MONEY:              $4.00     $4.00     
+2020-06-12 15:56:03 Grain Waves              $2.75     $1.25     
+2020-06-12 15:56:06 GIVE CHANGE:             $Your change is 5 quarters and 0 dimes and 0 nickels. $0.00     
+2020-06-12 15:56:19 FEED MONEY:              $7.00     $7        
+2020-06-12 15:56:22 Potato Crisps            $3.05     $3.95     
+2020-06-12 15:56:25 GIVE CHANGE:             $Your change is 15 quarters and 2 dimes and 0 nickels. $0.00     
